@@ -17,8 +17,9 @@ export default function Home() {
 
   return (
     <main className="min-h-screen p-24 bg-stone-950 space-y-10">
-      <h1 className="text-6xl font-mono font-bold">ipst countdown</h1>
+      <h1 className="text-6xl font-mono font-bold">acs 80 countdown</h1>
       <h1 className="text-5xl">พวกเราจะจบในอีก...</h1>
+      <h1 className="text-5xl">ครั้งหนึ่งกูเคยผ่านอเล็กซ์</h1>
       <h1 className="text-6xl">{getTime}</h1>
     </main>
   );
